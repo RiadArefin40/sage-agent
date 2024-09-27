@@ -1,0 +1,26 @@
+@import "config/variables";
+
+@import "custom/base";
+@import "custom/login";
+@import "custom/main";
+@import "custom/signup";
+@import "custom/responsive";
+:root {
+    --v-calendar-day-font-size: 12px !important;
+    --v-calendar-content-radius: 3px !important;
+    --v-calendar-view-button-color: $n800 !important;
+    --v-calendar-day-name-color: $n700 !important;
+    --v-calendar-text-disabled-color: #b3bac5 !important;
+    --v-calendar-day-name-font-size: 12px !important;
+    --v-calendar-day-name-font-weight: 600 !important;
+    --v-calendar-day-width: 40px !important;
+    --v-calendar-day-height: 30px !important;
+    --v-calendar-shadow: 0px 3px 5px rgba(9, 30, 66, 0.2),
+        0px 0px 1px rgba(9, 30, 66, 0.31) !important;
+    --v-calendar-active-bg-color: #0052CC !important;
+    --v-calendar-day-hover-bg-color:#0052CC !important;
+    --v-calendar-view-button-font-size: 16px !important;
+    --v-calendar-input-font-size: 12px !important;
+    --v-calendar-datepicker-icon-color: #0052CC !important;
+    --v-calendar-input-text-color: #091E42 !important;
+}

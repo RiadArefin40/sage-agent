@@ -1,0 +1,1756 @@
+{
+    "message": "Success",
+    "status": "200",
+    "data": {
+        "1": {
+            "keyword": "nfl com activate",
+            "difficulty": 47,
+            "cpc": "2.8399999141693115",
+            "rank_absolute": 11,
+            "avg_volume": "110000"
+        },
+        "2": {
+            "keyword": "nfl game pass",
+            "difficulty": 65,
+            "cpc": "3.069999933242798",
+            "rank_absolute": 22,
+            "avg_volume": "74000"
+        },
+        "3": {
+            "keyword": "nfl games pass",
+            "difficulty": 65,
+            "cpc": "3.069999933242798",
+            "rank_absolute": 30,
+            "avg_volume": "74000"
+        },
+        "4": {
+            "keyword": "notion template",
+            "difficulty": 65,
+            "cpc": "1.2999999523162842",
+            "rank_absolute": 33,
+            "avg_volume": "27100"
+        },
+        "5": {
+            "keyword": "notion templates",
+            "difficulty": 65,
+            "cpc": "1.2999999523162842",
+            "rank_absolute": 87,
+            "avg_volume": "27100"
+        },
+        "6": {
+            "keyword": "fios verizon internet",
+            "difficulty": 97,
+            "cpc": "30",
+            "rank_absolute": 68,
+            "avg_volume": "14800"
+        },
+        "7": {
+            "keyword": "google wifi mesh",
+            "difficulty": 67,
+            "cpc": "4.079999923706055",
+            "rank_absolute": 61,
+            "avg_volume": "12100"
+        },
+        "8": {
+            "keyword": "yahoo answer",
+            "difficulty": 62,
+            "cpc": "1.8899999856948853",
+            "rank_absolute": 68,
+            "avg_volume": "12100"
+        },
+        "9": {
+            "keyword": "nfl activate",
+            "difficulty": 58,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 7,
+            "avg_volume": "9900"
+        },
+        "10": {
+            "keyword": "nfl/activate",
+            "difficulty": 57,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 12,
+            "avg_volume": "9900"
+        },
+        "11": {
+            "keyword": "google wifi extender",
+            "difficulty": 65,
+            "cpc": "3.609999895095825",
+            "rank_absolute": 59,
+            "avg_volume": "8100"
+        },
+        "12": {
+            "keyword": "how to use the whatsapp",
+            "difficulty": 79,
+            "cpc": "0.5",
+            "rank_absolute": 75,
+            "avg_volume": "6600"
+        },
+        "13": {
+            "keyword": "how to use whatsapp",
+            "difficulty": 68,
+            "cpc": "0.5",
+            "rank_absolute": 30,
+            "avg_volume": "6600"
+        },
+        "14": {
+            "keyword": "nfl pass",
+            "difficulty": 75,
+            "cpc": "2.8299999237060547",
+            "rank_absolute": 54,
+            "avg_volume": "5400"
+        },
+        "15": {
+            "keyword": "test internet speed verizon",
+            "difficulty": 38,
+            "cpc": "50.04999923706055",
+            "rank_absolute": 87,
+            "avg_volume": "5400"
+        },
+        "16": {
+            "keyword": "league pass nfl",
+            "difficulty": 58,
+            "cpc": "2.9600000381469727",
+            "rank_absolute": 32,
+            "avg_volume": "4400"
+        },
+        "17": {
+            "keyword": "nest wifi router",
+            "difficulty": 70,
+            "cpc": "3.190000057220459",
+            "rank_absolute": 76,
+            "avg_volume": "4400"
+        },
+        "18": {
+            "keyword": "nfl league pass",
+            "difficulty": 65,
+            "cpc": "2.9600000381469727",
+            "rank_absolute": 42,
+            "avg_volume": "4400"
+        },
+        "19": {
+            "keyword": "speed test verizon fios",
+            "difficulty": 40,
+            "cpc": "28.56999969482422",
+            "rank_absolute": 68,
+            "avg_volume": "4400"
+        },
+        "20": {
+            "keyword": "google home with wifi",
+            "difficulty": 67,
+            "cpc": "4.929999828338623",
+            "rank_absolute": 81,
+            "avg_volume": "3600"
+        },
+        "21": {
+            "keyword": "google nest router",
+            "difficulty": 78,
+            "cpc": "4.579999923706055",
+            "rank_absolute": 75,
+            "avg_volume": "3600"
+        },
+        "22": {
+            "keyword": "how to reset google home",
+            "difficulty": 50,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "3600"
+        },
+        "23": {
+            "keyword": "nfl game pass login",
+            "difficulty": 65,
+            "cpc": "3.369999885559082",
+            "rank_absolute": 15,
+            "avg_volume": "3600"
+        },
+        "24": {
+            "keyword": "cost for nfl game pass",
+            "difficulty": 73,
+            "cpc": "2.7699999809265137",
+            "rank_absolute": 28,
+            "avg_volume": "2900"
+        },
+        "25": {
+            "keyword": "factory reset google home",
+            "difficulty": 57,
+            "cpc": "None",
+            "rank_absolute": 44,
+            "avg_volume": "2900"
+        },
+        "26": {
+            "keyword": "google home factory reset",
+            "difficulty": 53,
+            "cpc": "None",
+            "rank_absolute": 46,
+            "avg_volume": "2900"
+        },
+        "27": {
+            "keyword": "google wifi points",
+            "difficulty": 67,
+            "cpc": "4.559999942779541",
+            "rank_absolute": 42,
+            "avg_volume": "2900"
+        },
+        "28": {
+            "keyword": "nest wifi point",
+            "difficulty": 52,
+            "cpc": "4.889999866485596",
+            "rank_absolute": 62,
+            "avg_volume": "2900"
+        },
+        "29": {
+            "keyword": "nfl com activate code",
+            "difficulty": 39,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 17,
+            "avg_volume": "2900"
+        },
+        "30": {
+            "keyword": "nfl com activation code",
+            "difficulty": 13,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 18,
+            "avg_volume": "2900"
+        },
+        "31": {
+            "keyword": "nfl game pass cost",
+            "difficulty": 73,
+            "cpc": "2.7699999809265137",
+            "rank_absolute": 33,
+            "avg_volume": "2900"
+        },
+        "32": {
+            "keyword": "nfl gamepass cost",
+            "difficulty": 70,
+            "cpc": "2.7699999809265137",
+            "rank_absolute": 29,
+            "avg_volume": "2900"
+        },
+        "33": {
+            "keyword": "nfl.com activate code",
+            "difficulty": 39,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 18,
+            "avg_volume": "2900"
+        },
+        "34": {
+            "keyword": "nfl.com activation code",
+            "difficulty": 13,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 17,
+            "avg_volume": "2900"
+        },
+        "35": {
+            "keyword": "nfl.com/activate code",
+            "difficulty": 39,
+            "cpc": "2.3499999046325684",
+            "rank_absolute": 17,
+            "avg_volume": "2900"
+        },
+        "36": {
+            "keyword": "reset google home",
+            "difficulty": 53,
+            "cpc": "0.6499999761581421",
+            "rank_absolute": 10,
+            "avg_volume": "2900"
+        },
+        "37": {
+            "keyword": "google mesh networking",
+            "difficulty": 82,
+            "cpc": "3.299999952316284",
+            "rank_absolute": 93,
+            "avg_volume": "2400"
+        },
+        "38": {
+            "keyword": "google mesh wi fi router",
+            "difficulty": 68,
+            "cpc": "4.25",
+            "rank_absolute": 73,
+            "avg_volume": "2400"
+        },
+        "39": {
+            "keyword": "google mesh wi-fi router",
+            "difficulty": 68,
+            "cpc": "4.25",
+            "rank_absolute": 69,
+            "avg_volume": "2400"
+        },
+        "40": {
+            "keyword": "google wifi point",
+            "difficulty": 62,
+            "cpc": "7.980000019073486",
+            "rank_absolute": 47,
+            "avg_volume": "2400"
+        },
+        "41": {
+            "keyword": "google wifi reset",
+            "difficulty": 19,
+            "cpc": "8.199999809265137",
+            "rank_absolute": 6,
+            "avg_volume": "2400"
+        },
+        "42": {
+            "keyword": "how to factory reset google home",
+            "difficulty": 58,
+            "cpc": "None",
+            "rank_absolute": 37,
+            "avg_volume": "2400"
+        },
+        "43": {
+            "keyword": "how to reset wifi",
+            "difficulty": 60,
+            "cpc": "6.489999771118164",
+            "rank_absolute": 56,
+            "avg_volume": "2400"
+        },
+        "44": {
+            "keyword": "international game pass nfl",
+            "difficulty": 34,
+            "cpc": "5",
+            "rank_absolute": 30,
+            "avg_volume": "2400"
+        },
+        "45": {
+            "keyword": "nfl game pass international",
+            "difficulty": 43,
+            "cpc": "5",
+            "rank_absolute": 48,
+            "avg_volume": "2400"
+        },
+        "46": {
+            "keyword": "nfl gamepass intl",
+            "difficulty": 60,
+            "cpc": "5",
+            "rank_absolute": 46,
+            "avg_volume": "2400"
+        },
+        "47": {
+            "keyword": "reset google wifi",
+            "difficulty": 19,
+            "cpc": "8.199999809265137",
+            "rank_absolute": 6,
+            "avg_volume": "2400"
+        },
+        "48": {
+            "keyword": "resetting google wifi",
+            "difficulty": 19,
+            "cpc": "8.199999809265137",
+            "rank_absolute": 6,
+            "avg_volume": "2400"
+        },
+        "49": {
+            "keyword": "cancel nfl game",
+            "difficulty": 29,
+            "cpc": "None",
+            "rank_absolute": 25,
+            "avg_volume": "1900"
+        },
+        "50": {
+            "keyword": "factory reset google wifi",
+            "difficulty": 33,
+            "cpc": "None",
+            "rank_absolute": 7,
+            "avg_volume": "1900"
+        },
+        "51": {
+            "keyword": "factory reset google.wifi",
+            "difficulty": 33,
+            "cpc": "None",
+            "rank_absolute": 7,
+            "avg_volume": "1900"
+        },
+        "52": {
+            "keyword": "gamepass nfl",
+            "difficulty": 73,
+            "cpc": "4.150000095367432",
+            "rank_absolute": 27,
+            "avg_volume": "1900"
+        },
+        "53": {
+            "keyword": "google nest wifi point",
+            "difficulty": 63,
+            "cpc": "5.880000114440918",
+            "rank_absolute": 56,
+            "avg_volume": "1900"
+        },
+        "54": {
+            "keyword": "google nest wifi points",
+            "difficulty": 68,
+            "cpc": "5.880000114440918",
+            "rank_absolute": 64,
+            "avg_volume": "1900"
+        },
+        "55": {
+            "keyword": "how much for nfl game pass",
+            "difficulty": 70,
+            "cpc": "3.5999999046325684",
+            "rank_absolute": 24,
+            "avg_volume": "1900"
+        },
+        "56": {
+            "keyword": "how much is nfl gameday pass",
+            "difficulty": 73,
+            "cpc": "3.5999999046325684",
+            "rank_absolute": 25,
+            "avg_volume": "1900"
+        },
+        "57": {
+            "keyword": "how much nfl game pass",
+            "difficulty": 65,
+            "cpc": "3.5999999046325684",
+            "rank_absolute": 24,
+            "avg_volume": "1900"
+        },
+        "58": {
+            "keyword": "how.much is nfl game pass",
+            "difficulty": 65,
+            "cpc": "3.5999999046325684",
+            "rank_absolute": 45,
+            "avg_volume": "1900"
+        },
+        "59": {
+            "keyword": "nfl game pass intl",
+            "difficulty": 43,
+            "cpc": "3.4600000381469727",
+            "rank_absolute": 19,
+            "avg_volume": "1900"
+        },
+        "60": {
+            "keyword": "what is verizon fios",
+            "difficulty": 55,
+            "cpc": "50.880001068115234",
+            "rank_absolute": 40,
+            "avg_volume": "1900"
+        },
+        "61": {
+            "keyword": "google mesh system",
+            "difficulty": 67,
+            "cpc": "3.9000000953674316",
+            "rank_absolute": 82,
+            "avg_volume": "1600"
+        },
+        "62": {
+            "keyword": "nfl com accounts",
+            "difficulty": 40,
+            "cpc": "3.5799999237060547",
+            "rank_absolute": 83,
+            "avg_volume": "1600"
+        },
+        "63": {
+            "keyword": "what is nfl game pass",
+            "difficulty": 65,
+            "cpc": "4.150000095367432",
+            "rank_absolute": 37,
+            "avg_volume": "1600"
+        },
+        "64": {
+            "keyword": "what is nfl gameday pass",
+            "difficulty": 65,
+            "cpc": "4.150000095367432",
+            "rank_absolute": 30,
+            "avg_volume": "1600"
+        },
+        "65": {
+            "keyword": "fios home internet",
+            "difficulty": 78,
+            "cpc": "27.6299991607666",
+            "rank_absolute": 72,
+            "avg_volume": "1300"
+        },
+        "66": {
+            "keyword": "google nest mesh",
+            "difficulty": 70,
+            "cpc": "54.84000015258789",
+            "rank_absolute": 61,
+            "avg_volume": "1300"
+        },
+        "67": {
+            "keyword": "how to connect google nest to wifi",
+            "difficulty": 42,
+            "cpc": "3.759999990463257",
+            "rank_absolute": 39,
+            "avg_volume": "1300"
+        },
+        "68": {
+            "keyword": "how to reset google nest mini",
+            "difficulty": 58,
+            "cpc": "None",
+            "rank_absolute": 86,
+            "avg_volume": "1300"
+        },
+        "69": {
+            "keyword": "how to reset google wifi",
+            "difficulty": 9,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "1300"
+        },
+        "70": {
+            "keyword": "how.to reset google wifi",
+            "difficulty": 9,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "1300"
+        },
+        "71": {
+            "keyword": "nfl game day pass",
+            "difficulty": 77,
+            "cpc": "3.1600000858306885",
+            "rank_absolute": 28,
+            "avg_volume": "1300"
+        },
+        "72": {
+            "keyword": "nfl season pass",
+            "difficulty": 87,
+            "cpc": "2.6500000953674316",
+            "rank_absolute": 68,
+            "avg_volume": "1300"
+        },
+        "73": {
+            "keyword": "notion tutorial",
+            "difficulty": 43,
+            "cpc": "1.5700000524520874",
+            "rank_absolute": 71,
+            "avg_volume": "1300"
+        },
+        "74": {
+            "keyword": "set up google nest",
+            "difficulty": 55,
+            "cpc": "14.569999694824219",
+            "rank_absolute": 46,
+            "avg_volume": "1300"
+        },
+        "75": {
+            "keyword": "setup google nest",
+            "difficulty": 55,
+            "cpc": "14.569999694824219",
+            "rank_absolute": 33,
+            "avg_volume": "1300"
+        },
+        "76": {
+            "keyword": "cancel nfl sunday ticket",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 96,
+            "avg_volume": "1000"
+        },
+        "77": {
+            "keyword": "cancelling nfl sunday ticket",
+            "difficulty": 13,
+            "cpc": "None",
+            "rank_absolute": 85,
+            "avg_volume": "1000"
+        },
+        "78": {
+            "keyword": "factory reset nest mini",
+            "difficulty": 64,
+            "cpc": "None",
+            "rank_absolute": 97,
+            "avg_volume": "1000"
+        },
+        "79": {
+            "keyword": "fios gigabit connection",
+            "difficulty": 62,
+            "cpc": "19.5",
+            "rank_absolute": 35,
+            "avg_volume": "1000"
+        },
+        "80": {
+            "keyword": "google nest point",
+            "difficulty": 49,
+            "cpc": "13.130000114440918",
+            "rank_absolute": 63,
+            "avg_volume": "1000"
+        },
+        "81": {
+            "keyword": "google nest points",
+            "difficulty": 45,
+            "cpc": "13.130000114440918",
+            "rank_absolute": 63,
+            "avg_volume": "1000"
+        },
+        "82": {
+            "keyword": "google nest wifi extenders",
+            "difficulty": 43,
+            "cpc": "17.09000015258789",
+            "rank_absolute": 62,
+            "avg_volume": "1000"
+        },
+        "83": {
+            "keyword": "google nest wifi setup",
+            "difficulty": 42,
+            "cpc": "4.019999980926514",
+            "rank_absolute": 14,
+            "avg_volume": "1000"
+        },
+        "84": {
+            "keyword": "google sites verification",
+            "difficulty": 60,
+            "cpc": "5.599999904632568",
+            "rank_absolute": 78,
+            "avg_volume": "1000"
+        },
+        "85": {
+            "keyword": "how to cancel nfl plus",
+            "difficulty": 19,
+            "cpc": "5.760000228881836",
+            "rank_absolute": 29,
+            "avg_volume": "1000"
+        },
+        "86": {
+            "keyword": "how to factory reset google nest mini",
+            "difficulty": 64,
+            "cpc": "None",
+            "rank_absolute": 66,
+            "avg_volume": "1000"
+        },
+        "87": {
+            "keyword": "how to reset google nest",
+            "difficulty": 57,
+            "cpc": "None",
+            "rank_absolute": 4,
+            "avg_volume": "1000"
+        },
+        "88": {
+            "keyword": "mailchimp what does cleaned mean",
+            "difficulty": 32,
+            "cpc": "37.040000915527344",
+            "rank_absolute": 50,
+            "avg_volume": "1000"
+        },
+        "89": {
+            "keyword": "nest wifi vs google wifi",
+            "difficulty": 63,
+            "cpc": "4.539999961853027",
+            "rank_absolute": 76,
+            "avg_volume": "1000"
+        },
+        "90": {
+            "keyword": "nfl gamepass cancel",
+            "difficulty": 23,
+            "cpc": "None",
+            "rank_absolute": 14,
+            "avg_volume": "1000"
+        },
+        "91": {
+            "keyword": "price of nfl game pass",
+            "difficulty": 70,
+            "cpc": "2.880000114440918",
+            "rank_absolute": 27,
+            "avg_volume": "1000"
+        },
+        "92": {
+            "keyword": "verizon fios home internet",
+            "difficulty": 78,
+            "cpc": "23.719999313354492",
+            "rank_absolute": 52,
+            "avg_volume": "1000"
+        },
+        "93": {
+            "keyword": "verizon fios internet home",
+            "difficulty": 78,
+            "cpc": "27.799999237060547",
+            "rank_absolute": 58,
+            "avg_volume": "1000"
+        },
+        "94": {
+            "keyword": "what does cleaned mean in mailchimp",
+            "difficulty": 32,
+            "cpc": "37.040000915527344",
+            "rank_absolute": 43,
+            "avg_volume": "1000"
+        },
+        "95": {
+            "keyword": "best fios router",
+            "difficulty": 39,
+            "cpc": "12",
+            "rank_absolute": 70,
+            "avg_volume": "880"
+        },
+        "96": {
+            "keyword": "cancel nfl gamepass",
+            "difficulty": 23,
+            "cpc": "None",
+            "rank_absolute": 10,
+            "avg_volume": "880"
+        },
+        "97": {
+            "keyword": "cancel nfl plus",
+            "difficulty": 14,
+            "cpc": "5.389999866485596",
+            "rank_absolute": 36,
+            "avg_volume": "880"
+        },
+        "98": {
+            "keyword": "game pass app",
+            "difficulty": 60,
+            "cpc": "7.190000057220459",
+            "rank_absolute": 45,
+            "avg_volume": "880"
+        },
+        "99": {
+            "keyword": "gamepass ps4",
+            "difficulty": 57,
+            "cpc": "1.4700000286102295",
+            "rank_absolute": 8,
+            "avg_volume": "880"
+        },
+        "100": {
+            "keyword": "games pass app",
+            "difficulty": 70,
+            "cpc": "7.190000057220459",
+            "rank_absolute": 92,
+            "avg_volume": "880"
+        },
+        "101": {
+            "keyword": "how to factory reset nest mini",
+            "difficulty": 58,
+            "cpc": "None",
+            "rank_absolute": 96,
+            "avg_volume": "880"
+        },
+        "102": {
+            "keyword": "how to unpublish wix site",
+            "difficulty": 28,
+            "cpc": "None",
+            "rank_absolute": 38,
+            "avg_volume": "880"
+        },
+        "103": {
+            "keyword": "nest mesh wifi",
+            "difficulty": 78,
+            "cpc": "5.75",
+            "rank_absolute": 80,
+            "avg_volume": "880"
+        },
+        "104": {
+            "keyword": "nfl com activate roku",
+            "difficulty": 44,
+            "cpc": "2.819999933242798",
+            "rank_absolute": 26,
+            "avg_volume": "880"
+        },
+        "105": {
+            "keyword": "nfl game pass app",
+            "difficulty": 64,
+            "cpc": "2.7300000190734863",
+            "rank_absolute": 5,
+            "avg_volume": "880"
+        },
+        "106": {
+            "keyword": "nfl game pass customer service",
+            "difficulty": 40,
+            "cpc": "2.799999952316284",
+            "rank_absolute": 25,
+            "avg_volume": "880"
+        },
+        "107": {
+            "keyword": "nfl game pass for free",
+            "difficulty": 49,
+            "cpc": "3.930000066757202",
+            "rank_absolute": 22,
+            "avg_volume": "880"
+        },
+        "108": {
+            "keyword": "nfl game pass free",
+            "difficulty": 49,
+            "cpc": "3.930000066757202",
+            "rank_absolute": 25,
+            "avg_volume": "880"
+        },
+        "109": {
+            "keyword": "nfl gamepass app",
+            "difficulty": 64,
+            "cpc": "3.630000114440918",
+            "rank_absolute": 6,
+            "avg_volume": "880"
+        },
+        "110": {
+            "keyword": "nfl gamepass free",
+            "difficulty": 42,
+            "cpc": "3.930000066757202",
+            "rank_absolute": 24,
+            "avg_volume": "880"
+        },
+        "111": {
+            "keyword": "nfl sunday ticket vs game pass",
+            "difficulty": 59,
+            "cpc": "1.5299999713897705",
+            "rank_absolute": 53,
+            "avg_volume": "880"
+        },
+        "112": {
+            "keyword": "nfl.com activate roku",
+            "difficulty": 44,
+            "cpc": "2.819999933242798",
+            "rank_absolute": 24,
+            "avg_volume": "880"
+        },
+        "113": {
+            "keyword": "reset google",
+            "difficulty": 58,
+            "cpc": "1.649999976158142",
+            "rank_absolute": 26,
+            "avg_volume": "880"
+        },
+        "114": {
+            "keyword": "reset google nest",
+            "difficulty": 48,
+            "cpc": "None",
+            "rank_absolute": 5,
+            "avg_volume": "880"
+        },
+        "115": {
+            "keyword": "reset google nest mini",
+            "difficulty": 64,
+            "cpc": "None",
+            "rank_absolute": 96,
+            "avg_volume": "880"
+        },
+        "116": {
+            "keyword": "reset wifi",
+            "difficulty": 67,
+            "cpc": "3.380000114440918",
+            "rank_absolute": 40,
+            "avg_volume": "880"
+        },
+        "117": {
+            "keyword": "resetting wifi",
+            "difficulty": 67,
+            "cpc": "3.380000114440918",
+            "rank_absolute": 86,
+            "avg_volume": "880"
+        },
+        "118": {
+            "keyword": "wifi reset",
+            "difficulty": 78,
+            "cpc": "3.380000114440918",
+            "rank_absolute": 42,
+            "avg_volume": "880"
+        },
+        "119": {
+            "keyword": "zoom for gsuite",
+            "difficulty": 39,
+            "cpc": "7.760000228881836",
+            "rank_absolute": 20,
+            "avg_volume": "880"
+        },
+        "120": {
+            "keyword": "adding google wifi point",
+            "difficulty": 47,
+            "cpc": "25.84000015258789",
+            "rank_absolute": 84,
+            "avg_volume": "720"
+        },
+        "121": {
+            "keyword": "changing wifi on google home",
+            "difficulty": 42,
+            "cpc": "None",
+            "rank_absolute": 92,
+            "avg_volume": "720"
+        },
+        "122": {
+            "keyword": "connect nest to wifi",
+            "difficulty": 48,
+            "cpc": "6.150000095367432",
+            "rank_absolute": 38,
+            "avg_volume": "720"
+        },
+        "123": {
+            "keyword": "connecting nest to wifi",
+            "difficulty": 42,
+            "cpc": "6.150000095367432",
+            "rank_absolute": 46,
+            "avg_volume": "720"
+        },
+        "124": {
+            "keyword": "factory reset google nest",
+            "difficulty": 58,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "125": {
+            "keyword": "factory reset nest",
+            "difficulty": 33,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "126": {
+            "keyword": "factory reset nest hub",
+            "difficulty": 50,
+            "cpc": "None",
+            "rank_absolute": 32,
+            "avg_volume": "720"
+        },
+        "127": {
+            "keyword": "game pass login",
+            "difficulty": 98,
+            "cpc": "3.609999895095825",
+            "rank_absolute": 33,
+            "avg_volume": "720"
+        },
+        "128": {
+            "keyword": "google wifi factory reset",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "129": {
+            "keyword": "google wifi speed",
+            "difficulty": 50,
+            "cpc": "11",
+            "rank_absolute": 96,
+            "avg_volume": "720"
+        },
+        "130": {
+            "keyword": "how does google wifi work",
+            "difficulty": 75,
+            "cpc": "11",
+            "rank_absolute": 46,
+            "avg_volume": "720"
+        },
+        "131": {
+            "keyword": "how does google wifi works",
+            "difficulty": 68,
+            "cpc": "11",
+            "rank_absolute": 51,
+            "avg_volume": "720"
+        },
+        "132": {
+            "keyword": "how to cancel nfl game pass",
+            "difficulty": 23,
+            "cpc": "None",
+            "rank_absolute": 29,
+            "avg_volume": "720"
+        },
+        "133": {
+            "keyword": "how to cancel nfl gamepass",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 10,
+            "avg_volume": "720"
+        },
+        "134": {
+            "keyword": "how to connect nest to wifi",
+            "difficulty": 42,
+            "cpc": "7.559999942779541",
+            "rank_absolute": 45,
+            "avg_volume": "720"
+        },
+        "135": {
+            "keyword": "how to factory reset google nest",
+            "difficulty": 48,
+            "cpc": "None",
+            "rank_absolute": 7,
+            "avg_volume": "720"
+        },
+        "136": {
+            "keyword": "how to factory reset google wifi",
+            "difficulty": 11,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "137": {
+            "keyword": "how to reset a google home",
+            "difficulty": 53,
+            "cpc": "None",
+            "rank_absolute": 33,
+            "avg_volume": "720"
+        },
+        "138": {
+            "keyword": "how to.factory reset google wifi",
+            "difficulty": 11,
+            "cpc": "None",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "139": {
+            "keyword": "nest connect wifi",
+            "difficulty": 47,
+            "cpc": "6.150000095367432",
+            "rank_absolute": 56,
+            "avg_volume": "720"
+        },
+        "140": {
+            "keyword": "nest factory reset",
+            "difficulty": 23,
+            "cpc": "None",
+            "rank_absolute": 14,
+            "avg_volume": "720"
+        },
+        "141": {
+            "keyword": "nest not connecting to wifi",
+            "difficulty": 18,
+            "cpc": "None",
+            "rank_absolute": 38,
+            "avg_volume": "720"
+        },
+        "142": {
+            "keyword": "nfl all access",
+            "difficulty": 82,
+            "cpc": "3.450000047683716",
+            "rank_absolute": 91,
+            "avg_volume": "720"
+        },
+        "143": {
+            "keyword": "nfl game app",
+            "difficulty": 94,
+            "cpc": "5.039999961853027",
+            "rank_absolute": 39,
+            "avg_volume": "720"
+        },
+        "144": {
+            "keyword": "nfl game pass for roku",
+            "difficulty": 43,
+            "cpc": "5.989999771118164",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "145": {
+            "keyword": "nfl game pass on roku",
+            "difficulty": 22,
+            "cpc": "5.989999771118164",
+            "rank_absolute": 6,
+            "avg_volume": "720"
+        },
+        "146": {
+            "keyword": "nfl game pass roku",
+            "difficulty": 43,
+            "cpc": "5.989999771118164",
+            "rank_absolute": 7,
+            "avg_volume": "720"
+        },
+        "147": {
+            "keyword": "nfl plus free trial",
+            "difficulty": 50,
+            "cpc": "25.93000030517578",
+            "rank_absolute": 99,
+            "avg_volume": "720"
+        },
+        "148": {
+            "keyword": "notion page",
+            "difficulty": 48,
+            "cpc": "1.1100000143051147",
+            "rank_absolute": 25,
+            "avg_volume": "720"
+        },
+        "149": {
+            "keyword": "notion pages",
+            "difficulty": 60,
+            "cpc": "1.1100000143051147",
+            "rank_absolute": 39,
+            "avg_volume": "720"
+        },
+        "150": {
+            "keyword": "reset nest",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 13,
+            "avg_volume": "720"
+        },
+        "151": {
+            "keyword": "verizon fios home",
+            "difficulty": 100,
+            "cpc": "32.189998626708984",
+            "rank_absolute": 65,
+            "avg_volume": "720"
+        },
+        "152": {
+            "keyword": "verizon fios set up router",
+            "difficulty": 60,
+            "cpc": "21.600000381469727",
+            "rank_absolute": 76,
+            "avg_volume": "720"
+        },
+        "153": {
+            "keyword": "what is google wifi",
+            "difficulty": 68,
+            "cpc": "6.159999847412109",
+            "rank_absolute": 64,
+            "avg_volume": "720"
+        },
+        "154": {
+            "keyword": "what's google wifi",
+            "difficulty": 67,
+            "cpc": "6.159999847412109",
+            "rank_absolute": 69,
+            "avg_volume": "720"
+        },
+        "155": {
+            "keyword": "yahoo memes",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 54,
+            "avg_volume": "720"
+        },
+        "156": {
+            "keyword": "changing google home wifi",
+            "difficulty": 47,
+            "cpc": "None",
+            "rank_absolute": 88,
+            "avg_volume": "590"
+        },
+        "157": {
+            "keyword": "factory reset google nest mini",
+            "difficulty": 64,
+            "cpc": "None",
+            "rank_absolute": 70,
+            "avg_volume": "590"
+        },
+        "158": {
+            "keyword": "factory reset nest cam",
+            "difficulty": 33,
+            "cpc": "None",
+            "rank_absolute": 69,
+            "avg_volume": "590"
+        },
+        "159": {
+            "keyword": "fios internet speed",
+            "difficulty": 72,
+            "cpc": "20.959999084472656",
+            "rank_absolute": 63,
+            "avg_volume": "590"
+        },
+        "160": {
+            "keyword": "google nest mesh wifi",
+            "difficulty": 70,
+            "cpc": "51.290000915527344",
+            "rank_absolute": 66,
+            "avg_volume": "590"
+        },
+        "161": {
+            "keyword": "google nest not connecting to wifi",
+            "difficulty": 63,
+            "cpc": "None",
+            "rank_absolute": 31,
+            "avg_volume": "590"
+        },
+        "162": {
+            "keyword": "google wifi flashing blue",
+            "difficulty": 7,
+            "cpc": "None",
+            "rank_absolute": 28,
+            "avg_volume": "590"
+        },
+        "163": {
+            "keyword": "google wifi nest",
+            "difficulty": 78,
+            "cpc": "8.220000267028809",
+            "rank_absolute": 61,
+            "avg_volume": "590"
+        },
+        "164": {
+            "keyword": "google wifi vpn",
+            "difficulty": 44,
+            "cpc": "9.970000267028809",
+            "rank_absolute": 55,
+            "avg_volume": "590"
+        },
+        "165": {
+            "keyword": "how to change google home wifi",
+            "difficulty": 40,
+            "cpc": "None",
+            "rank_absolute": 66,
+            "avg_volume": "590"
+        },
+        "166": {
+            "keyword": "how to reset google nest hub",
+            "difficulty": 47,
+            "cpc": "None",
+            "rank_absolute": 26,
+            "avg_volume": "590"
+        },
+        "167": {
+            "keyword": "nfl access",
+            "difficulty": 58,
+            "cpc": "3.2300000190734863",
+            "rank_absolute": 75,
+            "avg_volume": "590"
+        },
+        "168": {
+            "keyword": "nfl com activate activation code",
+            "difficulty": 43,
+            "cpc": "2.0999999046325684",
+            "rank_absolute": 9,
+            "avg_volume": "590"
+        },
+        "169": {
+            "keyword": "nfl com/activate activation code",
+            "difficulty": 9,
+            "cpc": "2.0999999046325684",
+            "rank_absolute": 18,
+            "avg_volume": "590"
+        },
+        "170": {
+            "keyword": "nfl gamepass customer service",
+            "difficulty": 40,
+            "cpc": "3.9100000858306885",
+            "rank_absolute": 21,
+            "avg_volume": "590"
+        },
+        "171": {
+            "keyword": "nfl network login",
+            "difficulty": 100,
+            "cpc": "2.200000047683716",
+            "rank_absolute": 95,
+            "avg_volume": "590"
+        },
+        "172": {
+            "keyword": "nfl.com activate activation code",
+            "difficulty": 13,
+            "cpc": "2.0999999046325684",
+            "rank_absolute": 16,
+            "avg_volume": "590"
+        },
+        "173": {
+            "keyword": "nfl.com/activate activation code",
+            "difficulty": 13,
+            "cpc": "2.0999999046325684",
+            "rank_absolute": 16,
+            "avg_volume": "590"
+        },
+        "174": {
+            "keyword": "reset google wifi point",
+            "difficulty": 19,
+            "cpc": "20",
+            "rank_absolute": 6,
+            "avg_volume": "590"
+        },
+        "175": {
+            "keyword": "verizon service slow",
+            "difficulty": 8,
+            "cpc": "None",
+            "rank_absolute": 69,
+            "avg_volume": "590"
+        },
+        "176": {
+            "keyword": "wifi problems",
+            "difficulty": 70,
+            "cpc": "3.25",
+            "rank_absolute": 60,
+            "avg_volume": "590"
+        },
+        "177": {
+            "keyword": "yahoo answers archive",
+            "difficulty": 54,
+            "cpc": "None",
+            "rank_absolute": 13,
+            "avg_volume": "590"
+        },
+        "178": {
+            "keyword": "fios gigabit",
+            "difficulty": 62,
+            "cpc": "20",
+            "rank_absolute": 77,
+            "avg_volume": "480"
+        },
+        "179": {
+            "keyword": "game pass international",
+            "difficulty": 43,
+            "cpc": "5.800000190734863",
+            "rank_absolute": 52,
+            "avg_volume": "480"
+        },
+        "180": {
+            "keyword": "gamepass international",
+            "difficulty": 34,
+            "cpc": "5.800000190734863",
+            "rank_absolute": 49,
+            "avg_volume": "480"
+        },
+        "181": {
+            "keyword": "google home can t connect to wifi",
+            "difficulty": 67,
+            "cpc": "None",
+            "rank_absolute": 90,
+            "avg_volume": "480"
+        },
+        "182": {
+            "keyword": "google nest connect",
+            "difficulty": 34,
+            "cpc": "75.02999877929688",
+            "rank_absolute": 67,
+            "avg_volume": "480"
+        },
+        "183": {
+            "keyword": "google nest connection",
+            "difficulty": 63,
+            "cpc": "75.02999877929688",
+            "rank_absolute": 15,
+            "avg_volume": "480"
+        },
+        "184": {
+            "keyword": "google wifi flashing orange",
+            "difficulty": 11,
+            "cpc": "None",
+            "rank_absolute": 66,
+            "avg_volume": "480"
+        },
+        "185": {
+            "keyword": "google wifi solid blue",
+            "difficulty": 19,
+            "cpc": "11",
+            "rank_absolute": 12,
+            "avg_volume": "480"
+        },
+        "186": {
+            "keyword": "how to add google wifi point",
+            "difficulty": 53,
+            "cpc": "30",
+            "rank_absolute": 79,
+            "avg_volume": "480"
+        },
+        "187": {
+            "keyword": "how to cancel nfl sunday ticket",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 97,
+            "avg_volume": "480"
+        },
+        "188": {
+            "keyword": "how to factory reset google nest hub",
+            "difficulty": 50,
+            "cpc": "None",
+            "rank_absolute": 27,
+            "avg_volume": "480"
+        },
+        "189": {
+            "keyword": "how to reset google home hub",
+            "difficulty": 50,
+            "cpc": "None",
+            "rank_absolute": 50,
+            "avg_volume": "480"
+        },
+        "190": {
+            "keyword": "how to reset nest",
+            "difficulty": 33,
+            "cpc": "None",
+            "rank_absolute": 12,
+            "avg_volume": "480"
+        },
+        "191": {
+            "keyword": "how to set up google nest wifi",
+            "difficulty": 12,
+            "cpc": "14.050000190734863",
+            "rank_absolute": 16,
+            "avg_volume": "480"
+        },
+        "192": {
+            "keyword": "how to setup google nest wifi",
+            "difficulty": 42,
+            "cpc": "14.050000190734863",
+            "rank_absolute": 15,
+            "avg_volume": "480"
+        },
+        "193": {
+            "keyword": "international game pass",
+            "difficulty": 34,
+            "cpc": "5.800000190734863",
+            "rank_absolute": 27,
+            "avg_volume": "480"
+        },
+        "194": {
+            "keyword": "nest point",
+            "difficulty": 49,
+            "cpc": "48.790000915527344",
+            "rank_absolute": 77,
+            "avg_volume": "480"
+        },
+        "195": {
+            "keyword": "nfl com activate code roku",
+            "difficulty": 44,
+            "cpc": "1.9199999570846558",
+            "rank_absolute": 28,
+            "avg_volume": "480"
+        },
+        "196": {
+            "keyword": "nfl com activate link",
+            "difficulty": 44,
+            "cpc": "2.490000009536743",
+            "rank_absolute": 13,
+            "avg_volume": "480"
+        },
+        "197": {
+            "keyword": "nfl com game pass",
+            "difficulty": 74,
+            "cpc": "4",
+            "rank_absolute": 13,
+            "avg_volume": "480"
+        },
+        "198": {
+            "keyword": "nfl com subscription",
+            "difficulty": 53,
+            "cpc": "4.289999961853027",
+            "rank_absolute": 29,
+            "avg_volume": "480"
+        },
+        "199": {
+            "keyword": "nfl com subscriptions",
+            "difficulty": 53,
+            "cpc": "4.289999961853027",
+            "rank_absolute": 32,
+            "avg_volume": "480"
+        },
+        "200": {
+            "keyword": "nfl com/activate link",
+            "difficulty": 44,
+            "cpc": "2.490000009536743",
+            "rank_absolute": 17,
+            "avg_volume": "480"
+        },
+        "201": {
+            "keyword": "nfl game pass activation code",
+            "difficulty": 28,
+            "cpc": "2.299999952316284",
+            "rank_absolute": 3,
+            "avg_volume": "480"
+        },
+        "202": {
+            "keyword": "nfl game pass free trial",
+            "difficulty": 44,
+            "cpc": "10.069999694824219",
+            "rank_absolute": 30,
+            "avg_volume": "480"
+        },
+        "203": {
+            "keyword": "nfl.com activate code roku",
+            "difficulty": 39,
+            "cpc": "1.9199999570846558",
+            "rank_absolute": 27,
+            "avg_volume": "480"
+        },
+        "204": {
+            "keyword": "nfl.com subscriptions",
+            "difficulty": 53,
+            "cpc": "4.289999961853027",
+            "rank_absolute": 30,
+            "avg_volume": "480"
+        },
+        "205": {
+            "keyword": "nfl.com/activate link",
+            "difficulty": 49,
+            "cpc": "2.490000009536743",
+            "rank_absolute": 21,
+            "avg_volume": "480"
+        },
+        "206": {
+            "keyword": "nfl.com/game pass",
+            "difficulty": 65,
+            "cpc": "4",
+            "rank_absolute": 20,
+            "avg_volume": "480"
+        },
+        "207": {
+            "keyword": "reset google home hub",
+            "difficulty": 50,
+            "cpc": "None",
+            "rank_absolute": 49,
+            "avg_volume": "480"
+        },
+        "208": {
+            "keyword": "reset nest hub",
+            "difficulty": 42,
+            "cpc": "None",
+            "rank_absolute": 31,
+            "avg_volume": "480"
+        },
+        "209": {
+            "keyword": "set up google nest wifi",
+            "difficulty": 63,
+            "cpc": "6.559999942779541",
+            "rank_absolute": 23,
+            "avg_volume": "480"
+        },
+        "210": {
+            "keyword": "setting up google nest wifi",
+            "difficulty": 42,
+            "cpc": "6.559999942779541",
+            "rank_absolute": 19,
+            "avg_volume": "480"
+        },
+        "211": {
+            "keyword": "setup google nest wifi",
+            "difficulty": 12,
+            "cpc": "6.559999942779541",
+            "rank_absolute": 22,
+            "avg_volume": "480"
+        },
+        "212": {
+            "keyword": "verizon internet router",
+            "difficulty": 70,
+            "cpc": "21.780000686645508",
+            "rank_absolute": 90,
+            "avg_volume": "480"
+        },
+        "213": {
+            "keyword": "activate nfl network",
+            "difficulty": 58,
+            "cpc": "3.0399999618530273",
+            "rank_absolute": 15,
+            "avg_volume": "390"
+        },
+        "214": {
+            "keyword": "connect google nest to wifi",
+            "difficulty": 16,
+            "cpc": "4.96999979019165",
+            "rank_absolute": 25,
+            "avg_volume": "390"
+        },
+        "215": {
+            "keyword": "connecting google nest to wifi",
+            "difficulty": 28,
+            "cpc": "4.96999979019165",
+            "rank_absolute": 40,
+            "avg_volume": "390"
+        },
+        "216": {
+            "keyword": "factory reset google nest hub",
+            "difficulty": 42,
+            "cpc": "None",
+            "rank_absolute": 28,
+            "avg_volume": "390"
+        },
+        "217": {
+            "keyword": "fios not working",
+            "difficulty": 19,
+            "cpc": "4.5",
+            "rank_absolute": 56,
+            "avg_volume": "390"
+        },
+        "218": {
+            "keyword": "game pass id",
+            "difficulty": 19,
+            "cpc": "8.5600004196167",
+            "rank_absolute": 52,
+            "avg_volume": "390"
+        },
+        "219": {
+            "keyword": "google h2d",
+            "difficulty": 57,
+            "cpc": "10.739999771118164",
+            "rank_absolute": 47,
+            "avg_volume": "390"
+        },
+        "220": {
+            "keyword": "google home connection settings",
+            "difficulty": 60,
+            "cpc": "1.0199999809265137",
+            "rank_absolute": 71,
+            "avg_volume": "390"
+        },
+        "221": {
+            "keyword": "google nest mini not connecting to wifi",
+            "difficulty": 72,
+            "cpc": "None",
+            "rank_absolute": 60,
+            "avg_volume": "390"
+        },
+        "222": {
+            "keyword": "google nest reset",
+            "difficulty": 58,
+            "cpc": "None",
+            "rank_absolute": 9,
+            "avg_volume": "390"
+        },
+        "223": {
+            "keyword": "google nest won't connect to wifi",
+            "difficulty": 67,
+            "cpc": "None",
+            "rank_absolute": 92,
+            "avg_volume": "390"
+        },
+        "224": {
+            "keyword": "google wifi mesh system",
+            "difficulty": 72,
+            "cpc": "4.519999980926514",
+            "rank_absolute": 67,
+            "avg_volume": "390"
+        },
+        "225": {
+            "keyword": "google wifi not working",
+            "difficulty": 53,
+            "cpc": "10.979999542236328",
+            "rank_absolute": 18,
+            "avg_volume": "390"
+        },
+        "226": {
+            "keyword": "google wifi system",
+            "difficulty": 83,
+            "cpc": "5.190000057220459",
+            "rank_absolute": 74,
+            "avg_volume": "390"
+        },
+        "227": {
+            "keyword": "google wifi systems",
+            "difficulty": 67,
+            "cpc": "5.190000057220459",
+            "rank_absolute": 74,
+            "avg_volume": "390"
+        },
+        "228": {
+            "keyword": "how to factory reset nest hub",
+            "difficulty": 50,
+            "cpc": "None",
+            "rank_absolute": 37,
+            "avg_volume": "390"
+        },
+        "229": {
+            "keyword": "how to reset google",
+            "difficulty": 58,
+            "cpc": "None",
+            "rank_absolute": 19,
+            "avg_volume": "390"
+        },
+        "230": {
+            "keyword": "how to unpublish wix",
+            "difficulty": 28,
+            "cpc": "None",
+            "rank_absolute": 38,
+            "avg_volume": "390"
+        },
+        "231": {
+            "keyword": "myfiosgateway not working",
+            "difficulty": 19,
+            "cpc": "None",
+            "rank_absolute": 36,
+            "avg_volume": "390"
+        },
+        "232": {
+            "keyword": "nest wifi setup",
+            "difficulty": 12,
+            "cpc": "4.139999866485596",
+            "rank_absolute": 16,
+            "avg_volume": "390"
+        },
+        "233": {
+            "keyword": "nfl com account for assistance",
+            "difficulty": 28,
+            "cpc": "2.819999933242798",
+            "rank_absolute": 17,
+            "avg_volume": "390"
+        },
+        "234": {
+            "keyword": "nfl com/account for assistance",
+            "difficulty": 32,
+            "cpc": "2.819999933242798",
+            "rank_absolute": 13,
+            "avg_volume": "390"
+        },
+        "235": {
+            "keyword": "nfl game pass sign in",
+            "difficulty": 65,
+            "cpc": "3.5199999809265137",
+            "rank_absolute": 22,
+            "avg_volume": "390"
+        },
+        "236": {
+            "keyword": "nfl plus customer service number",
+            "difficulty": 47,
+            "cpc": "5.760000228881836",
+            "rank_absolute": 97,
+            "avg_volume": "390"
+        },
+        "237": {
+            "keyword": "nfl.com account for assistance",
+            "difficulty": 32,
+            "cpc": "2.819999933242798",
+            "rank_absolute": 19,
+            "avg_volume": "390"
+        },
+        "238": {
+            "keyword": "nfl.com app",
+            "difficulty": 94,
+            "cpc": "5",
+            "rank_absolute": 60,
+            "avg_volume": "390"
+        },
+        "239": {
+            "keyword": "nfl.com/account for assistance",
+            "difficulty": 32,
+            "cpc": "2.819999933242798",
+            "rank_absolute": 15,
+            "avg_volume": "390"
+        },
+        "240": {
+            "keyword": "notion homepage",
+            "difficulty": 23,
+            "cpc": "3.859999895095825",
+            "rank_absolute": 72,
+            "avg_volume": "390"
+        },
+        "241": {
+            "keyword": "notion homepage template",
+            "difficulty": 59,
+            "cpc": "3.299999952316284",
+            "rank_absolute": 37,
+            "avg_volume": "390"
+        },
+        "242": {
+            "keyword": "notion homepage templates",
+            "difficulty": 59,
+            "cpc": "3.299999952316284",
+            "rank_absolute": 79,
+            "avg_volume": "390"
+        },
+        "243": {
+            "keyword": "peter sage blog",
+            "difficulty": 23,
+            "cpc": "417.1300048828125",
+            "rank_absolute": 22,
+            "avg_volume": "390"
+        },
+        "244": {
+            "keyword": "reset google nest hub",
+            "difficulty": 38,
+            "cpc": "None",
+            "rank_absolute": 29,
+            "avg_volume": "390"
+        },
+        "245": {
+            "keyword": "reset google nest wifi",
+            "difficulty": 23,
+            "cpc": "None",
+            "rank_absolute": 4,
+            "avg_volume": "390"
+        },
+        "246": {
+            "keyword": "reset google.nest wifi",
+            "difficulty": 22,
+            "cpc": "None",
+            "rank_absolute": 2,
+            "avg_volume": "390"
+        },
+        "247": {
+            "keyword": "resetting google nest wifi",
+            "difficulty": 22,
+            "cpc": "None",
+            "rank_absolute": 4,
+            "avg_volume": "390"
+        },
+        "248": {
+            "keyword": "router factory reset",
+            "difficulty": 70,
+            "cpc": "None",
+            "rank_absolute": 89,
+            "avg_volume": "390"
+        },
+        "249": {
+            "keyword": "router settings verizon",
+            "difficulty": 62,
+            "cpc": "None",
+            "rank_absolute": 90,
+            "avg_volume": "390"
+        },
+        "250": {
+            "keyword": "seo ai",
+            "difficulty": 44,
+            "cpc": "19.1299991607666",
+            "rank_absolute": 75,
+            "avg_volume": "390"
+        }
+    }
+}

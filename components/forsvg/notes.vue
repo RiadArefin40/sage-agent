@@ -1,0 +1,212 @@
+<template>
+  <svg
+      width="74"
+      height="70"
+      viewBox="0 0 74 70"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_2611_3700)">
+      <path
+          d="M4.6522 14.7392C4.28551 13.1991 5.17867 11.6392 6.69247 11.1758L26.3542 5.15688C27.6264 4.76742 29.0032 5.26248 29.7362 6.37296L59.1002 50.864C60.2582 52.6185 59.2993 54.989 57.2472 55.4451L19.3847 63.8589C17.7846 64.2145 16.1952 63.2199 15.8155 61.6252L4.6522 14.7392Z"
+          fill="#DFE1E6"
+      />
+    </g>
+    <g filter="url(#filter1_d_2611_3700)">
+      <rect
+          x="16"
+          y="4"
+          width="54"
+          height="61"
+          rx="3"
+          fill="white"
+      />
+    </g>
+    <rect
+        x="21"
+        y="19"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="41"
+        y="19"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="21"
+        y="27"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="41"
+        y="27"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="21"
+        y="35"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="41"
+        y="35"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="21"
+        y="43"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="41"
+        y="43"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="21"
+        y="51"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="41"
+        y="51"
+        width="16"
+        height="4"
+        rx="2"
+        fill="#B3BAC5"
+    />
+    <rect
+        x="21"
+        y="10"
+        width="42"
+        height="4"
+        rx="2"
+        fill="#36B37E"
+    />
+    <defs>
+      <filter
+          id="filter0_d_2611_3700"
+          x="0.570068"
+          y="1.52515"
+          width="63.0286"
+          height="66.9058"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+      >
+        <feFlood
+            flood-opacity="0"
+            result="BackgroundImageFix"
+        />
+        <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+        />
+        <feOffset dy="0.5" />
+        <feGaussianBlur
+            stdDeviation="2"
+        />
+        <feComposite
+            in2="hardAlpha"
+            operator="out"
+        />
+        <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_2611_3700"
+        />
+        <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_2611_3700"
+            result="shape"
+        />
+      </filter>
+      <filter
+          id="filter1_d_2611_3700"
+          x="12"
+          y="0.5"
+          width="62"
+          height="69"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+      >
+        <feFlood
+            flood-opacity="0"
+            result="BackgroundImageFix"
+        />
+        <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+        />
+        <feOffset dy="0.5" />
+        <feGaussianBlur
+            stdDeviation="2"
+        />
+        <feComposite
+            in2="hardAlpha"
+            operator="out"
+        />
+        <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_2611_3700"
+        />
+        <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_2611_3700"
+            result="shape"
+        />
+      </filter>
+    </defs>
+  </svg>
+</template>
+
+<script>
+export default {
+name: "notes"
+}
+</script>
+
+<style scoped>
+
+</style>

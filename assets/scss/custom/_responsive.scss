@@ -1,0 +1,78 @@
+@media (max-width: 575px) {
+    .login-content {
+        width: 100%;
+        padding: 24px 32px;
+        margin-top: 20px;
+        box-shadow: none;
+    }
+    .login-wrapper {
+        background-color: transparent;
+        &::before {
+            background-color: white;
+        }
+    }
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/* Custom Design responsive for custom-container
+/*-----------------------------------------------------------------------------*/
+.custom-container {
+  max-width: 98%;
+  margin: 0 auto;
+  position: relative;
+}
+
+// @media (min-width: 576px) {
+//   .custom-container {
+//     max-width: 540px;
+//   }
+// }
+@media (min-width: 768px) {
+  .show-selection {
+    display: none;
+  }
+}
+
+// @media only screen and (min-width: 992px) {
+//   .custom-container {
+//     max-width: 739px;
+//   }
+// }
+// @media (min-width: 1200px) {
+//   .custom-container {
+//     max-width: 946px;
+//   }
+// }
+
+// @media (min-width: 1400px) {
+//   .custom-container {
+//     max-width: 1192px;
+//   }
+// }
+
+// @media (min-width: 2560px) {
+//     .custom-container {
+//         max-width: 95%;
+//         margin: 0 auto;
+//         position: relative;
+//       }
+//     h5 {
+//         font-size: 20px;
+//     }
+//     body {
+//         font-size: 20px;
+//     }
+//     .left-sidebar-menu {
+//         width: 300px;
+//     }
+//     .left-sidebar-menu .menu-content {
+//         width: 250px;
+//     }
+//     .font-11 {
+//         font-size: 15px;
+//     }
+//     .left-double-arrow {
+//         right: -110px;
+//     }
+// }

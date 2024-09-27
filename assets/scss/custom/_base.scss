@@ -1,0 +1,535 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #172b4d;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #0747a6;
+    text-decoration: none;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s;
+}
+
+a:hover {
+    color: #3266a2;
+}
+
+img {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/************* Colors and BG **********/
+.color-n900 {
+    color: $n900;
+}
+
+.color-n800 {
+    color: $n800;
+}
+
+.color-n700 {
+    color: $n700;
+}
+
+.color-n600 {
+    color: $n600;
+}
+
+.color-n500 {
+    color: $n500;
+}
+
+.color-n400 {
+    color: $n400;
+}
+
+.color-n100 {
+    color: $n100;
+}
+
+.color-y400 {
+    color: $y400;
+}
+
+.color-r400 {
+    color: $r400;
+}
+
+.color-g500 {
+    color: $g500;
+}
+
+.clor-b400 {
+    color: $b400;
+}
+
+.bg-g300 {
+    background-color: $g300;
+}
+
+.bg-y300 {
+    background-color: $y300;
+}
+
+.bg-r400 {
+    background-color: $r400;
+}
+
+.bg-r300 {
+    background-color: $r300;
+}
+
+.bg-r200 {
+    background-color: $r200;
+}
+
+.bg-b400 {
+    background-color: $b400;
+}
+
+.bg-data1 {
+    background-color: $data1;
+}
+
+.bg-n100 {
+    background-color: $n100;
+}
+
+/********** Typhography *************/
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-nunito {
+    font-family: "Nunito", sans-serif;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 54px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.font-14 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.font-12 {
+    font-size: 12px;
+    line-height: 16.5px;
+}
+
+.font-11 {
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.font-9 {
+    font-size: 9px;
+    line-height: 14px;
+}
+
+.wt-400 {
+    font-weight: 400;
+}
+
+.wt-500 {
+    font-weight: 500;
+}
+
+.wt-600 {
+    font-weight: 600;
+}
+
+.wt-700 {
+    font-weight: 700;
+}
+
+/**** Margin *******/
+.mr-12 {
+    margin-right: 12px;
+}
+
+.mr-42 {
+    margin-right: 42px;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+
+.mr-36 {
+    margin-right: 36.5px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-42 {
+    margin-bottom: 42px;
+}
+
+.mb-38 {
+    margin-bottom: 38px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-17 {
+    margin-bottom: 17px;
+}
+
+.mb-22 {
+    margin-bottom: 22.5px;
+}
+
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.ml-36 {
+    margin-left: 36.5px;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}
+
+
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mx-10 {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.mx-12 {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.mx-13 {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+/****** Border ******/
+.border {
+    border: 1px solid $n100 !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid $n100 !important;
+}
+
+.border-top {
+    border-top: 1px solid $n100 !important;
+}
+
+.border-right {
+    border-right: 1px solid $n100 !important;
+}
+
+.rounded-5 {
+    border-radius: 5px;
+}
+
+/*********** button *********/
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none
+}
+
+.btn {
+    font-size: inherit;
+}
+
+.btn:hover {
+    color: white;
+}
+
+button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.seo-btn {
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 16px;
+    display: inline-block;
+    outline: none;
+}
+
+.seo-btn__transparent {
+    box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+}
+
+.seo-btn__gray {
+    background-color: $n100;
+    color: $b400;
+}
+
+.seo-btn__blue {
+    background-color: $b400;
+    color: white;
+}
+
+.badge-btn {
+    width: fit-content;
+    padding: 1px 4px;
+    font-size: 11px;
+    border-radius: 5px;
+}
+
+.delete-button-icon {
+    font-size: 16px;
+    color: $r400;
+    padding: 3px;
+    cursor: pointer;
+}
+
+/*********** form ********/
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    height: 48px;
+    box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 0 8px;
+    border: 0;
+    outline: none;
+    color: #42526e;
+    font-family: "Poppins", sans-serif;
+    transition: all ease 0.3s;
+}
+
+label {
+    select {
+        height: auto !important;
+    }
+}
+
+textarea {
+    width: 100%;
+    box-shadow: 0px 0.5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 0 8px;
+    border: 0;
+    outline: none;
+    color: #42526e;
+    font-family: "Poppins", sans-serif;
+    transition: all ease 0.3s;
+}
+
+input[type="checkbox"],
+label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.seo-checkbox {
+    position: relative;
+
+    & input[type="checkbox"] {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    & label {
+        color: $n900;
+        padding-left: 24px;
+
+        &::before,
+        &::after {
+            position: absolute;
+            left: 0;
+            transition: all ease 0.2s;
+        }
+
+        &::before {
+            content: "";
+            z-index: 1;
+            top: 2px;
+            width: 14px;
+            height: 14px;
+            border: 2px solid #dfe1e6;
+            border-radius: 2px;
+            background-color: white;
+        }
+
+        &::after {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Pro";
+            font-weight: 400;
+            z-index: -2;
+            opacity: 0;
+            top: 1px;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            text-align: center;
+            background-color: $b400;
+            color: white;
+            border-radius: 2px;
+        }
+    }
+
+    & input[type="checkbox"]:checked {
+        &+label::after {
+            z-index: 1;
+            opacity: 1;
+        }
+    }
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+    box-shadow: 0px 0px 2px 2px rgba(0, 82, 204, .8);
+}
+
+.is-invalid {
+    box-shadow: 0px 0px 2px 2px #BF2600 !important;
+}
+
+.invalid-feedback {
+    font-size: inherit;
+    color: #BF2600;
+}
+
+.is-invalid-label {
+    color: #BF2600;
+}
+
+/**************** Miscellonous ***********/
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* To show the lines on right
+  and left sides of the text */
+.divider::after,
+.divider::before {
+    content: "";
+    border: 1px solid #DFE1E6;
+    flex: 1;
+}
+
+/* Space on left and right sides of text */
+.divider:not(:empty)::before {
+    margin-right: 8px;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 8px;
+}
+
+.toasted-container .toasted {
+    min-height: 32px !important;
+    height: 32px;
+    font-size: 12px;
+    background-color: $g300;
+    border-radius: 5px !important;
+}
+
+table.table {
+    overflow: hidden;
+
+    thead {
+        background-color: #f4f5f7;
+        border-radius: 10px;
+    }
+
+    th {
+        font-weight: 500;
+        color: $n800;
+    }
+
+    td {
+        padding: 6px 0px 6px 8px;
+        border-bottom: 1px solid $n100;
+    }
+}
+
+.center-content {
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
