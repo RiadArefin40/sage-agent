@@ -19,8 +19,10 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.4.1_@types+node@22.5.5_ioredis@5.4.1_magicast@0.3.5_rollup@4.22_d74dvaa2xksiz3c5wpre6aal4e/node_modules/nuxt/dist/pages/runtime/plugins/check-if-page-unused.js").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+devtools@1.4.2_rollup@4.22.0_vite@5.4.6_@types+node@22.5.5_sass-embedded@1.79.3_terser@5.33.0__vue@3.5.6/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.server.js").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/@nuxt+devtools@1.4.2_rollup@4.22.0_vite@5.4.6_@types+node@22.5.5_sass-embedded@1.79.3_terser@5.33.0__vue@3.5.6/node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js").default> &
+  InjectionType<typeof import("../../node_modules/.pnpm/@sidebase+nuxt-auth@0.9.3_magicast@0.3.5_next-auth@4.21.1_next@13.5.7_@babel+core@7.25.2_reac_6a546eyos76mppealed2kjiene/node_modules/@sidebase/nuxt-auth/dist/runtime/plugin.js").default> &
   InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.4.1_@types+node@22.5.5_ioredis@5.4.1_magicast@0.3.5_rollup@4.22_d74dvaa2xksiz3c5wpre6aal4e/node_modules/nuxt/dist/app/plugins/dev-server-logs.js").default> &
-  InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.4.1_@types+node@22.5.5_ioredis@5.4.1_magicast@0.3.5_rollup@4.22_d74dvaa2xksiz3c5wpre6aal4e/node_modules/nuxt/dist/app/plugins/check-if-layout-used.js").default>
+  InjectionType<typeof import("../../node_modules/.pnpm/nuxt@3.13.2_@parcel+watcher@2.4.1_@types+node@22.5.5_ioredis@5.4.1_magicast@0.3.5_rollup@4.22_d74dvaa2xksiz3c5wpre6aal4e/node_modules/nuxt/dist/app/plugins/check-if-layout-used.js").default> &
+  InjectionType<typeof import("../../plugins/toast").default>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }

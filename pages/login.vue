@@ -1,13 +1,13 @@
 <template>
     <section
-        class="login-wrapper d-flex justify-content-center align-items-start h-100 position-relative"
+        class="login-wrapper flex justify-center items-start h-screen relative"
     >
-        <div class="login-content bg-white rounded-5 mb-5">
-            <nuxt-link to="/"
+        <div class="login-content bg-white rounded-5 mb-[48px]">
+            <nuxt-link class="w-full inline-block text-center" to="/"
                 ><img
                     src="/images/login-logo.png"
                     alt=""
-                    class="login-logo d-block mb-32 mt-4"
+                    class="login-logo d-block mb-32 mt-6"
                 />
             </nuxt-link>
             <div class="divider mb-32">Log in to Your Account</div>
@@ -18,7 +18,7 @@
                     :page="page"
                     :loading="loading"
                 />
-                <div class="terms-conditions mb-4 ms-3">
+                <div class="terms-conditions mb-6 ms-4">
                     <input
                         type="checkbox"
                         name="terms-conditions"
@@ -39,81 +39,87 @@
     </section>
 </template>
 
-<script>
-export default {
-    middleware: ["auth"],
-    name: "Login",
-    data: () => ({
-        btnText: "Sign In",
-        page: "login",
-        loading: false,
-    }),
-    mounted() {
-        // if (this.$auth.loggedIn) {
-        //     this.$router.push({ path: "/" });
-        // }
-        // this.$store.dispatch("formValidation/clearErrors");
-    },
-    methods: {
-        async loginAccount(user) {
-            this.loading = true;
-            // try {
-            //     let res = await this.$auth.loginWith("local", { data: user });
-            //     localStorage.setItem("token", res.data.access_token);
-            //     if (this.$auth.user.user_type === 1) {
-            //         if (this.$auth.user.domain) {
-            //             this.$router.push(
-            //                 "/agency/dashboard/" + this.$auth.user.domain.id
-            //             );
-            //         } else {
-            //             this.$router.push("/agency/domains");
-            //         }
+<script setup>
+import { useRouter } from 'vue-router';
+const router = useRouter();
+const btnText = ref("Sign In");
+const page = ref("login");
+const loading = ref(false);
+const { signIn } = useAuth();
+const { data, status, getSession } = useAuth()
+const runtimeConfig = useRuntimeConfig();
+const formValidationStore = useFormValidationStore();
 
-            //         setTimeout(() => {
-            //             if (res.data.is_first_login) {
-            //                 const toggleDialog = (open) => {
-            //                     this.$store.commit(
-            //                         "accountSetting/TOGGLE_DIALOG",
-            //                         open
-            //                     );
-            //                 };
+const  loginAccount = async(user) => {
+                loading.value = true;
+    
+             
+                const  {data,error,status} = await useAsyncData('post', () =>  signIn({ ...user}, { callbackUrl: '/domains' } ) )
+                //  if(status.value = "success"){
+                //     console.log('response',status)
+                //      router.push('/')
+                //  }
+                 if(error?.value?.data){
+                    formValidationStore.setErrors(error.value.data);
+                    console.log('error','data',error.value.data)
+                 }
+                 
 
-            //                 const updateTab = (tab) => {
-            //                     this.$store.commit(
-            //                         "accountSetting/UPDATE_CURRENT_ACCOUNT_SETTING_DIALOG_TAB",
-            //                         tab
-            //                     );
-            //                 };
+   
+                // localStorage.setItem("token", res.data.access_token);
+               
+                // if (this.$auth.user.user_type === 1) {
+                //     if (this.$auth.user.domain) {
+                //         this.$router.push(
+                //             "/agency/dashboard/" + this.$auth.user.domain.id
+                //         );
+                //     } else {
+                //         this.$router.push("/agency/domains");
+                //     }
 
-            //                 if (this.$store.state.accountSetting.open) {
-            //                     toggleDialog(false);
-            //                     setTimeout(() => {
-            //                         updateTab("");
-            //                         toggleDialog(true);
-            //                         setTimeout(
-            //                             () => updateTab("change-password"),
-            //                             0
-            //                         );
-            //                     }, 0);
-            //                 } else {
-            //                     updateTab("");
-            //                     toggleDialog(true);
-            //                     setTimeout(
-            //                         () => updateTab("change-password"),
-            //                         0
-            //                     );
-            //                 }
-            //             }
-            //         }, 1000);
-            //     }
+                //     setTimeout(() => {
+                //         if (res.data.is_first_login) {
+                //             const toggleDialog = (open) => {
+                //                 this.$store.commit(
+                //                     "accountSetting/TOGGLE_DIALOG",
+                //                     open
+                //                 );
+                //             };
+
+                //             const updateTab = (tab) => {
+                //                 this.$store.commit(
+                //                     "accountSetting/UPDATE_CURRENT_ACCOUNT_SETTING_DIALOG_TAB",
+                //                     tab
+                //                 );
+                //             };
+
+                //             if (this.$store.state.accountSetting.open) {
+                //                 toggleDialog(false);
+                //                 setTimeout(() => {
+                //                     updateTab("");
+                //                     toggleDialog(true);
+                //                     setTimeout(
+                //                         () => updateTab("change-password"),
+                //                         0
+                //                     );
+                //                 }, 0);
+                //             } else {
+                //                 updateTab("");
+                //                 toggleDialog(true);
+                //                 setTimeout(
+                //                     () => updateTab("change-password"),
+                //                     0
+                //                 );
+                //             }
+                //         }
+                //     }, 1000);
+                // }
             // } catch (err) {
-            //     console.log("login error");
+            //     const formValidationStore = useFormValidationStore();
+            //     console.log("login error",err);
             // }
-            this.loading = false;
-            console.log('okkkkk login')
-        },
-    },
-};
+            loading.value = false;
+}
 </script>
 <style scoped lang="scss">
 .password-view {

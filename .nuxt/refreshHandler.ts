@@ -1,0 +1,2 @@
+import { DefaultRefreshHandler } from '/home/likhon/Desktop/Personal Projects/seo-sage-v3/node_modules/.pnpm/@sidebase+nuxt-auth@0.9.3_magicast@0.3.5_next-auth@4.21.1_next@13.5.7_@babel+core@7.25.2_reac_6a546eyos76mppealed2kjiene/node_modules/@sidebase/nuxt-auth/dist/runtime/utils/refreshHandler'
+export const _refreshHandler = new DefaultRefreshHandler({"enablePeriodically":false,"enableOnWindowFocus":true})

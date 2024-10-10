@@ -1,16 +1,19 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: 'agency'
+})
 import { useAuthStore } from '@/stores/auth'
+const { data, status, getSession } = useAuth()
+const authUserData = data
 const auth = useAuthStore()
-
 
 </script>
 
+
 <template>
-
-<h1>{{ auth.count }}</h1>
-
-<button @click="auth.increment">Add</button>
-
+    <div>
+        {{ authUserData.data }}
+    </div>
 </template>
 
 <style scoped></style>

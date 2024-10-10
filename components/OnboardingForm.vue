@@ -21,10 +21,10 @@
                             @input="checkCredentialFill"
                         />
                         <div class="invalid-feedback" v-if="errors.email">
-                            {{ errors.email[0] }}
+                            {{ errors?.email[0] }}
                         </div>
                     </div>
-                    <div class="form-item clearfix position-relative">
+                    <div class="form-item clearfix relative">
                         <label
                             for="password"
                             class="mb-1 d-block wt-600 d-block"
@@ -53,7 +53,7 @@
                 </div>
             </transition>
         </div>
-        <div class="form-item clearfix position-relative">
+        <div class="form-item clearfix relative">
             <NuxtLink
                 to="/forget-password"
                 style="float: right"
@@ -65,7 +65,7 @@
         <div class="social-signup mb-32">
             <button
                 type="button"
-                class="google text-start w-100 seo-btn border-0 rounded-5 seo-btn__transparent ps-2"
+                class="google text-start w-full seo-btn border-0 rounded-5 seo-btn__transparent ps-2"
                 @click="socialLogin('google')"
             >
                 <img src="/images/google.png" alt="" class="me-2" />
@@ -75,7 +75,7 @@
         <button
             :disabled="!btnActive || loading"
             type="submit"
-            class="login-button mb-4 login-submit flex items-center justify-center"
+            class="login-button mb-6 login-submit flex items-center justify-center"
             @keyup.enter="handleSubmit"
             :class="[btnActive ? 'credentialfilled' : '']"
         >
@@ -85,73 +85,85 @@
     </form>
 </template>
 
-<script>
-export default {
-    name: "OnboardingForm",
-    props: ["fromBtnText", "termcheck", "page", "loading"],
-    data: () => ({
-        errors:{
-          
-        },
-        user: {
-            email: "",
-            password: "",
-        },
-        isCredentialsFilled: false,
-        show: false,
-        passwordFieldType: "password",
-        passwordViewIcon: "fa-light fa-eye",
-    }),
-    computed: {
-        btnActive() {
-            // if (this.isCredentialsFilled && this.fromBtnText === "Sign In") {
-            //     return true;
-            // } else if (
-            //     this.isCredentialsFilled &&
-            //     this.fromBtnText === "Sign Up" &&
-            //     this.termcheck
-            // ) {
-            //     return true;
-            // } else {
-            //     return false;
-            // }
-            return true
-        },
-    },
-    mounted() {
-        setTimeout(() => {
-            this.show = true;
-        }, 200)
-            // this.$store.dispatch("formValidation/clearErrors");
-    },
-    methods: {
-        handleSubmit() {
-            this.$emit("form-submit", this.user);
-        },
 
-        socialLogin(service) {
-            window.location.href = `${process.env.baseUrl}social-login/${service}`;
-        },
-        checkCredentialFill() {
-            // if (this.user.email.length > 0 && this.user.password.length > 0) {
-            //     this.isCredentialsFilled = true;
-            // } else {
-            //     this.$store.dispatch("formValidation/clearErrors");
-            //     this.isCredentialsFilled = false;
-            // }
-        },
-        switchPasswordFieldType() {
-            this.passwordFieldType =
-                this.passwordFieldType == "password" ? "text" : "password";
-            this.switchPasswordViewIcon();
-        },
-        switchPasswordViewIcon() {
-            this.passwordViewIcon =
-                this.passwordFieldType == "password"
-                    ? "fa-light fa-eye"
-                    : "fa-light fa-eye-slash";
-        },
-    },
+<script setup>
+import { useFormValidationStore } from '@/stores/formValidation'
+const formValidationStore = useFormValidationStore();
+const emit = defineEmits(['form-submit']);
+// Props
+const props = defineProps({
+  fromBtnText: String,
+  termcheck: Boolean,
+  page: String,
+  loading: Boolean
+});
+
+// State
+const user = ref({
+  email: "",
+  password: ""
+});
+const errors = storeToRefs(formValidationStore).errors;
+const isCredentialsFilled = ref(false);
+const show = ref(false);
+const passwordFieldType = ref("password");
+const passwordViewIcon = ref("fa-light fa-eye");
+const router = useRouter();
+const runtimeConfig = useRuntimeConfig();
+
+// Computed property for button activation
+const btnActive = computed(() => {
+  if (isCredentialsFilled.value && props.fromBtnText === "Sign In") {
+    return true;
+  } else if (
+    isCredentialsFilled.value &&
+    props.fromBtnText === "Sign Up" &&
+    props.termcheck
+  ) {
+    return true;
+  }
+  return false;
+});
+
+onMounted(() => {
+     formValidationStore.clearErrors();
+    setTimeout(() => {
+            show.value = true;
+        }, 200)
+});
+
+
+const handleSubmit = () => {
+  emit('form-submit', user.value);
+};
+
+
+const socialLogin = (service) => {
+  window.location.href = `${runtimeConfig.public.baseUrl}social-login/${service}`;
+};
+
+const checkCredentialFill = () => {
+  if (user.value.email.length > 0 && user.value.password.length > 0) {
+    isCredentialsFilled.value = true;
+  } else {
+    formValidationStore.clearErrors();
+    isCredentialsFilled.value = false;
+  }
+};
+
+
+const switchPasswordFieldType = () => {
+  passwordFieldType.value =
+    passwordFieldType.value === "password" ? "text" : "password";
+  switchPasswordViewIcon();
+};
+
+
+const switchPasswordViewIcon = () => {
+  passwordViewIcon.value =
+    passwordFieldType.value === "password"
+      ? "eye"
+      : "fa-light fa-eye-slash";
 };
 </script>
 
@@ -177,5 +189,10 @@ export default {
 .fade-enter,
 .fade-leave-to {
     opacity: 0;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>

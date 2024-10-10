@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <AgencyTopHeader />
+    <!-- <AgencyTopHeader /> -->
     <!-- <AgencyPanelSidebar />
     <AgencyMiniSidebar></AgencyMiniSidebar> -->
     <slot />

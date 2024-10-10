@@ -29,6 +29,9 @@ importers:
       vue-router:
         specifier: latest
         version: 4.4.5(vue@3.5.6)
+      vue-toastification:
+        specifier: ^2.0.0-rc.5
+        version: 2.0.0-rc.5(vue@3.5.6)
     devDependencies:
       sass-embedded:
         specifier: ^1.79.3
@@ -3797,6 +3800,11 @@ packages:
     resolution: {integrity: sha512-4fKZygS8cH1yCyuabAXGUAsyi1b2/o/OKgu/RUb+znIYOxPRxdkytJEx+0wGcpBE1pX6vUgh5jwWOKRGvuA/7Q==}
     peerDependencies:
       vue: ^3.2.0
+
+  vue-toastification@2.0.0-rc.5:
+    resolution: {integrity: sha512-q73e5jy6gucEO/U+P48hqX+/qyXDozAGmaGgLFm5tXX4wJBcVsnGp4e/iJqlm9xzHETYOilUuwOUje2Qg1JdwA==}
+    peerDependencies:
+      vue: ^3.0.2
 
   vue@3.5.6:
     resolution: {integrity: sha512-zv+20E2VIYbcJOzJPUWp03NOGFhMmpCKOfSxVTmCYyYFFko48H9tmuQFzYj7tu4qX1AeXlp9DmhIP89/sSxxhw==}
@@ -7920,6 +7928,10 @@ snapshots:
   vue-router@4.4.5(vue@3.5.6):
     dependencies:
       '@vue/devtools-api': 6.6.4
+      vue: 3.5.6
+
+  vue-toastification@2.0.0-rc.5(vue@3.5.6):
+    dependencies:
       vue: 3.5.6
 
   vue@3.5.6:

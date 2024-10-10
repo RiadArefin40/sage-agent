@@ -101,7 +101,85 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {}
+  "public": {
+    "apiBase": "https://sage-tqdk23d5hq-uc.a.run.app/api/",
+    "auth": {
+      "computed": {
+        "origin": "https://sage-tqdk23d5hq-uc.a.run.app",
+        "pathname": "/api/",
+        "fullBaseUrl": "https://sage-tqdk23d5hq-uc.a.run.app/api/"
+      },
+      "isEnabled": true,
+      "disableServerSideAuth": false,
+      "originEnvKey": "AUTH_ORIGIN",
+      "sessionRefresh": {
+        "enablePeriodically": false,
+        "enableOnWindowFocus": true,
+        "handler": ""
+      },
+      "globalAppMiddleware": true,
+      "baseURL": "https://sage-tqdk23d5hq-uc.a.run.app/api/",
+      "provider": {
+        "type": "local",
+        "pages": {
+          "login": "/login"
+        },
+        "endpoints": {
+          "signIn": {
+            "path": "auth/login",
+            "method": "post"
+          },
+          "signOut": {
+            "path": "auth/logout",
+            "method": "post"
+          },
+          "signUp": {
+            "path": "/register",
+            "method": "post"
+          },
+          "getSession": {
+            "path": "auth/user-profile",
+            "method": "get"
+          }
+        },
+        "token": {
+          "signInResponseTokenPointer": "/access_token",
+          "type": "Bearer",
+          "cookieName": "auth.token",
+          "headerName": "Authorization",
+          "maxAgeInSeconds": 1800,
+          "sameSiteAttribute": "lax",
+          "secureCookieAttribute": false,
+          "cookieDomain": "",
+          "httpOnlyCookieAttribute": false
+        },
+        "session": {
+          "dataType": {
+            "id": "string | number"
+          },
+          "dataResponsePointer": "/"
+        },
+        "refresh": {
+          "isEnabled": false,
+          "endpoint": {
+            "path": "/refresh",
+            "method": "post"
+          },
+          "refreshOnlyToken": true,
+          "token": {
+            "signInResponseRefreshTokenPointer": "/refreshToken",
+            "refreshRequestTokenPointer": "/refreshToken",
+            "cookieName": "auth.refresh-token",
+            "maxAgeInSeconds": 604800,
+            "sameSiteAttribute": "lax",
+            "secureCookieAttribute": false,
+            "cookieDomain": "",
+            "httpOnlyCookieAttribute": false
+          }
+        }
+      }
+    }
+  }
 };
 const envOptions = {
   prefix: "NITRO_",
@@ -621,7 +699,7 @@ const _i8ked5rxe3 = (function(nitro) {
 
 const rootDir = "/home/likhon/Desktop/Personal Projects/seo-sage-v3";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image/x-icon","href":"/favicon.ico"},{"href":"https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap","rel":"stylesheet"},{"href":"https://cdn.datatables.net/v/dt/dt-1.11.4/date-1.1.2/r-2.2.9/sp-1.4.0/datatables.min.css","rel":"stylesheet"}],"style":[],"script":[{"src":"https://kit.fontawesome.com/b6a72d85f5.js"},{"src":"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"},{"src":"https://cdn.datatables.net/v/dt/dt-1.11.4/date-1.1.2/r-2.2.9/sp-1.4.0/datatables.min.js"},{"src":"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"},{"src":"https://cdn.datatables.net/plug-ins/1.10.20/sorting/datetime-moment.js"},{"src":"https://www.youtube.com/iframe_api"}],"noscript":[],"title":"Sage"};
 
 const appRootTag = "div";
 
@@ -840,9 +918,11 @@ const errorHandler = (async function errorhandler(error, event) {
   return send(event, html);
 });
 
+const _lazy_3UhVoo = () => Promise.resolve().then(function () { return login$1; });
 const _lazy_o2E1Yl = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
+  { route: '/api/login', handler: _lazy_3UhVoo, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_o2E1Yl, lazy: true, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_o2E1Yl, lazy: true, middleware: false, method: undefined }
 ];
@@ -1037,6 +1117,17 @@ const template$1 = (messages) => {
 const errorDev = /*#__PURE__*/Object.freeze({
   __proto__: null,
   template: template$1
+});
+
+const login = defineEventHandler((event) => {
+  return {
+    hello: "world"
+  };
+});
+
+const login$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: login
 });
 
 const Vue3 = version[0] === "3";
